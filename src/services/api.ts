@@ -1,5 +1,5 @@
 // Global API URL prefix - can be configured by adding prefix/suffix
-let baseUrl = import.meta.env.API_BASE_URL;
+let baseUrl = 'https://crm-backend-zeta-eight.vercel.app/';
 if(baseUrl) {
   baseUrl = baseUrl + '/api';
 }
